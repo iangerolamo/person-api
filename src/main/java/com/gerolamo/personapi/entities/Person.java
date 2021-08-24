@@ -1,6 +1,5 @@
 package com.gerolamo.personapi.entities;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 
 import javax.persistence.*;
