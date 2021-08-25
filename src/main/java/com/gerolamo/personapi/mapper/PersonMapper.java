@@ -1,4 +1,4 @@
-package com.gerolamo.personapi.dto.mapper;
+package com.gerolamo.personapi.mapper;
 
 import com.gerolamo.personapi.dto.request.PersonDTO;
 import com.gerolamo.personapi.entities.Person;
