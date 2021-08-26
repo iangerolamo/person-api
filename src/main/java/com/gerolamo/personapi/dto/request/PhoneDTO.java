@@ -1,10 +1,7 @@
 package com.gerolamo.personapi.dto.request;
 
 import com.gerolamo.personapi.enums.PhoneType;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -15,6 +12,7 @@ import javax.validation.constraints.Size;
 @AllArgsConstructor
 @Getter
 @Setter
+@Builder
 public class PhoneDTO {
     private Long id;
 

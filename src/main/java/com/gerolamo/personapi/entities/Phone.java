@@ -12,6 +12,7 @@ import javax.persistence.*;
 @Setter
 @ToString
 @EqualsAndHashCode
+@Builder
 public class Phone {
 
     @Id
